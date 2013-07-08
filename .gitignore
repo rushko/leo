@@ -1,0 +1,32 @@
+# osx
+._*
+.DS_Store
+# backup files
+*~
+*.log
+*.bck
+
+# magento stuff
+.htaccess.sample
+maintenance.flag
+
+app/etc/local.xml
+
+downloader/pearlib/cache/*
+downloader/pearlib/data/*
+downloader/pearlib/output/*
+downloader/pearlib/cache/*
+downloader/pearlib/temp/*
+downloader/pearlib/tests/*
+downloader/pearlib/download/*
+downloader/pearlib/pear.ini
+downloader/pearlib/php/.*
+downloader/cache.cfg
+downloader/connect.cfg
+downloader/.cache/*
+
+app/etc/use_cache.ser
+
+var/*
+media/*
+wp/wp-content/uploads/
